@@ -5,20 +5,17 @@ application up and running.
 
 Things you may want to cover:
 
-* Ruby version
+## **Requirements**
+- **Ruby Version**: `3.2.1`
+- **Rails Version**: `7.x`
+- **Database**: PostgreSQL 
+- **Dependencies**:
+  - `Devise` & `Devise-JWT` (Authentication)
+  - `Pagy` (Pagination)
+  - `ActiveModel::Serializers` (JSON serialization)
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+## Setup the database 
+ * rails db:create
+ * rails db:migrate
+ * rails db:seed
+ 
